@@ -99,7 +99,7 @@ spec:
       - name: shadowsocks-rust
         securityContext:
           {}
-        image: "teddysun/shadowsocks-rust:debian-1.9.1"
+        image: "ghcr.io/shadowsocks/ssserver-rust:latest"
         imagePullPolicy: IfNotPresent
         volumeMounts:
         - name: config

@@ -33,10 +33,10 @@ hostPort: false
 replicaCount: 1
 
 image:
-  repository: teddysun/shadowsocks-rust
+  repository: ghcr.io/shadowsocks/ssserver-rust
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "debian-1.9.1"
+  tag: "latest"
 
 imagePullSecrets: []
 nameOverride: ""
